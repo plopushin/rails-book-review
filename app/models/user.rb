@@ -1,5 +1,5 @@
 class User < ActiveRecord::Base
-
+	has_many :reviews
 	has_many :books
   # Include default devise modules. Others available are:
   # :confirmable, :lockable, :timeoutable and :omniauthable
